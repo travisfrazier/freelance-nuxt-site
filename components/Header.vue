@@ -51,7 +51,7 @@
           </h1>
           <p>
             Based in San Diego, I’m a front-end developer passionate about
-            building responsive web apps that users love.
+            building responsive web sites that my clients love.
           </p>
           <a href="#contact">
             <button>Contact Me</button>
@@ -81,9 +81,9 @@
   
         const words = [
           "Travis Frazier",
-          "a coder",
-          "ui focused",
-          "pretty cool :)"
+          "a developer",
+          "client focused",
+          "really good :)"
         ];
   
         words.forEach((word) => {
