@@ -1,28 +1,28 @@
 <template>
     <section class="skills__section">
       <div class="skill__item">
-        <h2>HTML</h2>
+        <h2>Squarespace</h2>
         <p>5 Years Experience</p>
       </div>
       <div class="skill__item">
-        <h2>CSS</h2>
+        <h2>Shopify</h2>
         <p>4.5 Years Experience</p>
       </div>
       <div class="skill__item">
-        <h2>JavaScript</h2>
+        <h2>Wix</h2>
         <p>4 Years Experience</p>
       </div>
       <div class="skill__item">
-        <h2>Vue</h2>
-        <p>3 Years Experience</p>
-      </div>
-      <div class="skill__item">
-        <h2>Sass</h2>
+        <h2>Custom Sites</h2>
         <p>4 Years Experience</p>
       </div>
       <div class="skill__item">
-        <h2>React</h2>
+        <h2>Wordpress</h2>
         <p>1 Years Experience</p>
+      </div>
+      <div class="skill__item">
+        <h2>Freelance</h2>
+        <p>7 Years Experience</p>
       </div>
     </section>
   </template>

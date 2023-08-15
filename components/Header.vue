@@ -82,7 +82,7 @@
         const words = [
           "Travis Frazier",
           "a developer",
-          "client focused",
+          "a designer",
           "really good :)"
         ];
   
