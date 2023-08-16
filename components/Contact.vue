@@ -9,7 +9,7 @@
               fill in the form, and I’ll get back to you as soon as possible.
             </p>
           </div>
-          <form method="POST" name="contact" netlify>
+          <form method="POST" name="contact" data-netlify="true">
             <input required type="text" name="name" placeholder="NAME" />
             <input required type="email" name="email" placeholder="EMAIL" />
             <input required type="tel" name="email" placeholder="PHONE" />
