@@ -67,13 +67,20 @@ export default {
 					id: 3,
 				},
 				{
+					img: 'another-salon.png',
+					name: 'Another Salon Studio',
+					skillOne: 'Squarespace',
+					live: 'https://www.anothersalon.com/',
+					id: 4,
+				},
+				{
 					img: 'yoga-fuzn.png',
 					name: 'Yoga Fuzn',
 					skillOne: 'SquareSpace',
 					skillTwo: 'CSS',
 					skillThree: 'Javascript',
 					live: 'https://yogafuzn.com',
-					id: 4,
+					id: 5,
 				},
 				{
 					img: 'yogiroll.png',
@@ -81,7 +88,7 @@ export default {
 					skillOne: 'Shopify',
 					skillTwo: 'CSS',
 					live: 'https://yogiroll.com',
-					id: 5,
+					id: 6,
 				},
 				{
 					img: 'mimosas.png',
@@ -90,7 +97,7 @@ export default {
 					skillTwo: 'Sass',
 					skillThree: 'JavaScript',
 					live: 'https://themimosasnailbar.com/',
-					id: 6,
+					id: 7,
 				}
 			],
 		};
