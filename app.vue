@@ -1,5 +1,9 @@
 <template>
   <div>
+	<Head>
+      <Title>Travis Frazier Website Design</Title>
+      <Meta name="description" content="Web developer and designer building small businesses custom, Squarespace, and Shopify websites in San Diego."/>
+    </Head>
     <NuxtPage />
   </div>
 </template>
