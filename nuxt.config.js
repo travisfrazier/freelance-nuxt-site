@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  meta: {
+    title: 'Travis Frazier Website Design',
+    description: 'Web developer and designer building small businesses custom, Squarespace, and Shopify websites in San Diego.'
+  },
   vite: {
     css: {
       preprocessorOptions: {
