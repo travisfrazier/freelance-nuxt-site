@@ -1,7 +1,7 @@
 <template>
 	<section class="projects__section">
 		<div class="projects__top">
-			<h2>Projects</h2>
+			<h2>Portfolio</h2>
 			<a href="#contact">
 				<button>Contact Me</button>
 			</a>
