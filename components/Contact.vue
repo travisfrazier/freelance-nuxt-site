@@ -14,7 +14,7 @@
             <input required type="email" name="email" placeholder="EMAIL" />
             <input required type="tel" name="phone" placeholder="PHONE" />
             <input type="url" name="website" placeholder="CURRENT WEBSITE" />
-            <textarea required type="text" name="message" placeholder="BRIEFLY DESCRIPE YOUR NEED OR PROJECT" />
+            <textarea required type="text" name="message" placeholder="BRIEFLY DESCRIBE YOUR NEED OR PROJECT" />
             <input type="hidden" name="form-name" value="Contact" />
             <button type="submit">Send message</button>
           </form>
