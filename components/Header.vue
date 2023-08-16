@@ -46,12 +46,11 @@
       <div class="header__main">
         <div class="header__info">
           <h1>
-            Nice to meet you! I'm <u class="animate__text"></u
-            ><span class="cursor">_</span>
+            <u>Squarespace</u> & <u>Shopify</u> Design & Development
           </h1>
           <p>
-            Based in San Diego, I’m a front-end developer passionate about
-            building responsive web sites that my clients love.
+            Based in San Diego, I’m a web designer and developer passionate about
+            building responsive websites for small businesses.
           </p>
           <a href="#contact">
             <button>Contact Me</button>

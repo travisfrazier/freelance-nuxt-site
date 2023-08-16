@@ -9,12 +9,8 @@
         <p>4.5 Years Experience</p>
       </div>
       <div class="skill__item">
-        <h2>Wix</h2>
-        <p>4 Years Experience</p>
-      </div>
-      <div class="skill__item">
-        <h2>Custom Sites</h2>
-        <p>4 Years Experience</p>
+        <h2>Headless Sites</h2>
+        <p>3 Years Experience</p>
       </div>
       <div class="skill__item">
         <h2>Wordpress</h2>
