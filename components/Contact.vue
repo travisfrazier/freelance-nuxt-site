@@ -6,14 +6,15 @@
             <h1>Contact</h1>
             <p>
               I would love to hear about your project and how I could help. Please
-              fill in the form, and I’ll get back to you as soon as possible.
+              fill in the form, and I’ll get back to you within two business days.
             </p>
           </div>
           <form method="POST" action="/" name="Contact" data-netlify="true" data-netlify-honeypot="bot-field">
             <input required type="text" name="name" placeholder="NAME" />
             <input required type="email" name="email" placeholder="EMAIL" />
-            <input required type="tel" name="email" placeholder="PHONE" />
-            <textarea required type="text" name="message" placeholder="MESSAGE" />
+            <input required type="tel" name="phone" placeholder="PHONE" />
+            <input type="url" name="website" placeholder="CURRENT WEBSITE" />
+            <textarea required type="text" name="message" placeholder="BRIEFLY DESCRIPE YOUR NEED OR PROJECT" />
             <input type="hidden" name="form-name" value="Contact" />
             <button type="submit">Send message</button>
           </form>
