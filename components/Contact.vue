@@ -9,11 +9,12 @@
               fill in the form, and I’ll get back to you as soon as possible.
             </p>
           </div>
-          <form method="POST" name="contact" data-netlify="true">
+          <form method="POST" action="/" name="contact" netlify>
             <input required type="text" name="name" placeholder="NAME" />
             <input required type="email" name="email" placeholder="EMAIL" />
             <input required type="tel" name="email" placeholder="PHONE" />
             <textarea required type="text" name="message" placeholder="MESSAGE" />
+            <input type="hidden" name="form-name" value="contact" />
             <button type="submit">Send message</button>
           </form>
         </div>
