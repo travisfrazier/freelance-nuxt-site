@@ -50,7 +50,7 @@
           </h1>
           <p>
             Based in San Diego, I’m a web designer and developer passionate about
-            building responsive websites for small businesses. I specialize in SquareSpace, Shopify, and custom codes sites.
+            building responsive websites for small businesses. I specialize in SquareSpace, Shopify, and custom coded sites.
           </p>
           <a href="#contact">
             <button>Contact Me</button>
