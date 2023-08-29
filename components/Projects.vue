@@ -20,7 +20,7 @@
 					}"
 				>
 					<div class="projects__overlay">
-						<a target="_blank" v-bind:href="project.live">
+						<a v-bind:href="project.live">
 							<button>View Project</button>
 						</a>
 					</div>

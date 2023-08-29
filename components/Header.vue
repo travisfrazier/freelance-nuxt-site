@@ -3,7 +3,7 @@
       <div class="header__tippyTop">
         <p class="header__title">travisfrazier</p>
         <div class="header__social">
-          <a href="https://linkedin.com/in/traviscoding" target="_blank">
+          <a href="https://linkedin.com/in/traviscoding">
             <svg
               width="25"
               height="24"
@@ -46,11 +46,11 @@
       <div class="header__main">
         <div class="header__info">
           <h1>
-            <u>Squarespace</u> & <u>Shopify</u> Design & Development
+            <u>Web Design</u> & <u>Development</u><br>
           </h1>
           <p>
             Based in San Diego, I’m a web designer and developer passionate about
-            building responsive websites for small businesses.
+            building responsive websites for small businesses. I specialize in SquareSpace, Shopify, and custom codes sites.
           </p>
           <a href="#contact">
             <button>Contact Me</button>

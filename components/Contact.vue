@@ -22,7 +22,7 @@
         <div class="footer__tippyTop">
           <p class="footer__title">travisfrazier</p>
           <div class="footer__social">
-            <a href="https://linkedin.com/in/traviscoding" target="_blank">
+            <a href="https://linkedin.com/in/traviscoding">
               <svg
                 width="25"
                 height="24"
