@@ -45,7 +45,7 @@ export default {
 					img: 'natalie-lmft.png',
 					name: 'Natalie Coates',
 					skillOne: 'Squarespace',
-					live: 'https://www.nataliecoateslmft.com',
+					live: 'https://bugle-falcon-9saw.squarespace.com/',
 					id: 1,
 				},
 				{
