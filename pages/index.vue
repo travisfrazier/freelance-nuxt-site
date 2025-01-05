@@ -1,7 +1,7 @@
 <template>
 	<div class="layout">
 		<Header />
-		<Skills />
+		<!-- <Skills /> -->
 		<Projects />
 		<Contact />
 		<Rings class="header__rings" />

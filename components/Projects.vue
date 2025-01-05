@@ -1,7 +1,7 @@
 <template>
 	<section class="projects__section">
 		<div class="projects__top">
-			<h2>Portfolio</h2>
+			<h2>Recent Work</h2>
 			<a href="#contact">
 				<button>Contact Me</button>
 			</a>
@@ -28,8 +28,6 @@
 				<h3>{{ project.name }}</h3>
 				<div class="projects__item--skills">
 					<p>{{ project.skillOne }}</p>
-					<p>{{ project.skillTwo }}</p>
-					<p>{{ project.skillThree }}</p>
 				</div>
 			</div>
 		</div>
@@ -41,63 +39,61 @@ export default {
 	data() {
 		return {
 			projects: [
-				{
-					img: 'natalie-lmft.png',
-					name: 'Natalie Coates',
-					skillOne: 'Squarespace',
-					live: 'https://bugle-falcon-9saw.squarespace.com/',
+				{	
+					img: 'yoga-fuzn.png',
+					name: 'Yoga Fuzn',
+					skillOne: 'SquareSpace site build',
+					live: 'https://yogafuzn.com',
 					id: 1,
 				},
 				{
 					img: 'space-tourism.png',
 					name: 'Space Travel Website',
-					skillOne: 'HTML',
-					skillTwo: 'Sass',
-					skillThree: 'Vue',
+					skillOne: 'Custom site build',
 					live: 'https://space-tourism-vuejs.netlify.app',
 					id: 2,
 				},
 				{
-					img: 'typemaster.png',
-					name: 'Typemaster Launch Landing Page',
-					skillOne: 'HTML',
-					skillTwo: 'CSS Grid',
-					skillThree: 'Sass',
-					live: 'https://travisfrazier.github.io/typemaster-lp',
+					img: 'bench-clearers.png',
+					name: 'Bench Clearers Shopify',
+					skillOne: 'Custom Shopify development',
+					live: 'https://benchclearers.com',
 					id: 3,
+				},
+				{
+					img: 'sandy-vans.png',
+					name: 'Sandy Vans',
+					skillOne: 'Custom data marketing integrations',
+					live: 'https://themimosasnailbar.com/',
+					id: 4,
 				},
 				{
 					img: 'another-salon.png',
 					name: 'Another Salon Studio',
-					skillOne: 'Squarespace',
+					skillOne: 'Squarespace site work',
 					live: 'https://www.anothersalon.com/',
-					id: 4,
-				},
-				{
-					img: 'yoga-fuzn.png',
-					name: 'Yoga Fuzn',
-					skillOne: 'SquareSpace',
-					skillTwo: 'CSS',
-					skillThree: 'Javascript',
-					live: 'https://yogafuzn.com',
 					id: 5,
 				},
 				{
 					img: 'yogiroll.png',
 					name: 'YogiRoll',
-					skillOne: 'Shopify',
-					skillTwo: 'CSS',
+					skillOne: 'Shopify site build',
 					live: 'https://yogiroll.com',
 					id: 6,
 				},
 				{
+					img: 'natalie-lmft.png',
+					name: 'Natalie Coates',
+					skillOne: 'Squarespace site build',
+					live: 'https://www.nataliecoateslmft.com/',
+					id: 7,
+				},
+				{
 					img: 'mimosas.png',
 					name: 'Mimosas Nails',
-					skillOne: 'HTML',
-					skillTwo: 'Sass',
-					skillThree: 'JavaScript',
+					skillOne: 'Custom site build',
 					live: 'https://themimosasnailbar.com/',
-					id: 7,
+					id: 8,
 				}
 			],
 		};
@@ -119,9 +115,9 @@ export default {
 			});
 		},
 	},
-	mounted() {
-		this.animateProjects();
-	},
+	// mounted() {
+	// 	this.animateProjects();
+	// },
 };
 </script>
 
@@ -156,10 +152,6 @@ h3 {
 		grid-template-columns: 1fr;
 		gap: 30px;
 	}
-}
-
-.projects__item {
-	cursor: pointer;
 }
 
 .project__item--img {

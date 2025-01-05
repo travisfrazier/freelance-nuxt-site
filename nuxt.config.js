@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -10,6 +11,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   app: {
     head: {
       script: [
@@ -18,5 +20,7 @@ export default defineNuxtConfig({
         { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js' }
       ],
     }
-  }
+  },
+
+  compatibilityDate: '2025-01-04'
 })
